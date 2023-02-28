@@ -95,5 +95,6 @@ test.describe("LoginPage Validation", () => {
     await landingPage.validateFlightDepartDateOptionVisible(page);
     await landingPage.validateFlightReturnDateOptionVisible(page);
     await landingPage.validateFlightNumberOfTravellerOptionVisible(page);
+    await landingPage.validateFlightNumberOfTravellerOptionVisible(page);
   });
 });
